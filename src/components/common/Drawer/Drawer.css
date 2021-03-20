@@ -1,0 +1,121 @@
+.Drawer-Container {
+  top: 2px;
+  padding: 24px 12px 0px 24px;
+  margin-top: 48px;
+
+}
+
+.Policy-Logo {
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.Client-Name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+
+.mt-28 {
+  margin-top: 28%;
+}
+
+.Custom-Drawer>.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiPaper-elevation16 {
+  width: 240px;
+  box-shadow: inset -1px 0 0 0 #e2e2ea !important;
+  background-color: #ffffff !important;
+  margin-top: 58px;
+}
+
+.Custom-Drawer>.MuiBackdrop-root {
+  background-color: transparent;
+}
+
+.bottom-drawer-list {
+  position: absolute !important;
+  bottom: 70px;
+  width: 100%;
+}
+
+.custom-list .MuiListItemText-root span {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: inherit;
+}
+
+.custom-list .MuiListItemIcon-root {
+  min-width: 40px;
+}
+
+.custom-list .MuiListItemText-root.list-head-title span {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  color: #9ea0a5 !important;
+  margin: 0;
+  text-transform: uppercase;
+
+}
+
+.custom-list .MuiListItem-gutters {
+  padding-left: 30px;
+  padding-right: 20px;
+  color: #424242;
+}
+
+/* .custom-list .MuiListItem-gutters:hover{
+  background-color: #f0fbf1;
+  color: #00b464;
+} */
+.MuiPaper-root.MuiDrawer-paper a {
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.custom-list .MuiListItem-gutters.active {
+  background-color: #f0fbf1;
+  color: #00b464;
+  border-radius: 5px;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+
+.custom-list.MuiList-padding {
+  padding-top: 20px;
+  padding-right: 0px;
+
+}
+
+.MuiDrawer-modal.Custom-Drawer {
+  z-index: 999 !important;
+}
+
+@media (max-width: 991px) {
+
+  .Custom-Drawer>.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiPaper-elevation16 {
+    width: 100%;
+    box-shadow: unset !important;
+  }
+
+  .custom-list.MuiList-padding {
+    padding-right: 50px;
+    padding-top: 50px;
+
+  }
+
+}
+
+@media (min-width:991px) {
+  .pos-fixed {
+    position: fixed;
+  }
+
+  .pos-fixed .MuiList-root.custom-list {
+    min-width: 280px;
+  }
+}
