@@ -102,7 +102,7 @@ class HomePage extends React.Component<any,
         if (type === "add") {
             if (this.state.name !== "") {
                 room_arr.push(this.state.name);
-                this.setState({ room_arr, name: "" })
+                this.setState({ room_arr, name: "", date_match_modal: false })
             }
         }
         else if (type === "delete") {
