@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/leauge-x/static/css/main.d547c7ae.chunk.css",
+    "main.js": "/leauge-x/static/js/main.810a1c01.chunk.js",
+    "main.js.map": "/leauge-x/static/js/main.810a1c01.chunk.js.map",
+    "runtime-main.js": "/leauge-x/static/js/runtime-main.be5ac5d3.js",
+    "runtime-main.js.map": "/leauge-x/static/js/runtime-main.be5ac5d3.js.map",
+    "static/js/2.09e68daa.chunk.js": "/leauge-x/static/js/2.09e68daa.chunk.js",
+    "static/js/2.09e68daa.chunk.js.map": "/leauge-x/static/js/2.09e68daa.chunk.js.map",
+    "static/js/3.b80741ad.chunk.js": "/leauge-x/static/js/3.b80741ad.chunk.js",
+    "static/js/3.b80741ad.chunk.js.map": "/leauge-x/static/js/3.b80741ad.chunk.js.map",
+    "index.html": "/leauge-x/index.html",
+    "static/css/main.d547c7ae.chunk.css.map": "/leauge-x/static/css/main.d547c7ae.chunk.css.map",
+    "static/js/2.09e68daa.chunk.js.LICENSE.txt": "/leauge-x/static/js/2.09e68daa.chunk.js.LICENSE.txt",
+    "static/media/ic_close_blue.8ccfc5f5.svg": "/leauge-x/static/media/ic_close_blue.8ccfc5f5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be5ac5d3.js",
+    "static/js/2.09e68daa.chunk.js",
+    "static/css/main.d547c7ae.chunk.css",
+    "static/js/main.810a1c01.chunk.js"
+  ]
+}
