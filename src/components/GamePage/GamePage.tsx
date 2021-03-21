@@ -61,29 +61,31 @@ class GamePage extends React.Component<any,
             newQuestion: {},
             questions_arr: [
                 {
-                    question: "which option is correct",
-                    option: ["A", "Option A", "Both", "All of the Above"],
+                    question: "If a leaf falls to the ground in a forest and no one hears it, does it make a sound? ",
+                    option: ["Yes", "Option A", "Both", "All of the Above"],
                     correct: "All of the Above",
                     id: 1
-                },
-                {
-                    question: "Probablity you were right answering previous question",
-                    option: ["10", "20", "50", "90"],
-                    correct: "10",
-                    id: 2
                 },
                 {
                     question: "Divide 30 by half and add ten.",
                     option: ["40.5", "50", "10", "I know this is a trick question, so NONE. Ha!"],
                     correct: "I know this is a trick question, so NONE. Ha!",
+                    id: 2
+                },
+                {
+                    question: "which option is correct",
+                    option: ["This", "Option A", "Both", "All of the Above"],
+                    correct: "All of the Above",
                     id: 3
                 },
                 {
-                    question: "If a leaf falls to the ground in a forest and no one hears it, does it make a sound? ",
-                    option: ["X", "Option Y", "Both", "All of the Above"],
-                    correct: "All of the Above",
+                    question: "Probablity you were right answering previous question",
+                    option: ["10", "20", "50", "0"],
+                    correct: "0",
                     id: 4
-                }
+                },
+
+
             ]
 
         }
@@ -91,7 +93,7 @@ class GamePage extends React.Component<any,
     }
 
     componentDidMount = () => {
-
+        console.log("props", this.props.roomData)
         const timer = setInterval(() => {
             if (this.state.progress >= 100) {
                 this.setState({ progress: 0 })

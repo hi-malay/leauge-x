@@ -125,10 +125,14 @@ class HomePage extends React.Component<any,
     render() {
         if (this.state.redirect) {
             return (
-                // <GamePage />
-                <Redirect to={{
-                    pathname: `/game`
-                }} />
+                // 
+                <>
+
+                    <Redirect to={{
+                        pathname: `/game`
+                    }} />
+
+                </>
             )
         }
         return (
