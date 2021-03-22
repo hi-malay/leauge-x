@@ -84,12 +84,8 @@ class GamePage extends React.Component<any,
                     correct: "0",
                     id: 4
                 },
-
-
             ]
-
         }
-
     }
 
     componentDidMount = () => {
@@ -109,21 +105,21 @@ class GamePage extends React.Component<any,
     }
 
     newQuestion = () => {
-        // the commented line is for random question 
+        // the commented line is for random question
 
-        // let randomVal = Math.floor(Math.random() * (this.state.questions_arr.length + 1) + 1)
-        // let newQuestion = this.state.questions_arr.filter((data: any) => data.id === randomVal)
-
-        // this line is for series question 
-        let newQuestion = this.state.questions_arr.filter((data: any) => data.id === this.state.increment)
+        let randomVal = Math.floor(Math.random() * (this.state.questions_arr.length) + 1)
+        let newQuestion = this.state.questions_arr.filter((data: any) => data.id === randomVal)
+        console.log("ddd", randomVal)
+        // this line is for series question
+        // let newQuestion = this.state.questions_arr.filter((data: any) => data.id === this.state.increment)
         this.setState({ newQuestion: newQuestion, progress: 0 })
 
-        if (this.state.increment >= this.state.questions_arr.length) {
-            this.setState({ increment: 1 })
-        }
-        else {
-            this.setState({ increment: this.state.increment + 1 })
-        }
+        // if (this.state.increment >= this.state.questions_arr.length) {
+        //     this.setState({ increment: 1 })
+        // }
+        // else {
+        //     this.setState({ increment: this.state.increment + 1 })
+        // }
     }
     handleCloseSub = () => {
         this.setState({ date_match_modal: false })
